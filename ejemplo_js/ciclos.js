@@ -1,8 +1,11 @@
 inicio = 0
 fin = 10
+fin = parseInt(window.prompt('ingrese el numero para hacer el ciclo: '))    
 
 for (let index = inicio; index < fin; index++) {
     console.log(index)
+    valor = parseInt(window.prompt('ingrese el numero para hacer el ciclo: '))    
+    console.log("ingresaste ", valor)
     
 }
 console.log('se acabo la ejecucion de mi codigo')
