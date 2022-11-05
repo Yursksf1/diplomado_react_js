@@ -25,9 +25,13 @@
     <script>
         app = $("#app")
         app.addClass('font_blackout')
-        coordenada_row = 5
-        coordenada_cell = 5
-         
+        function getRandomArbitrary(min, max) {
+            return parseInt(Math.random() * (max - min) + min)
+        }
+        coordenada_row = getRandomArbitrary(1, 12)
+        coordenada_cell = getRandomArbitrary(1, 12)
+        console.log(coordenada_row, coordenada_cell) 
+
         for (let row = 0; row < 12; row++) {
             div_row = document.createElement("div")
             div_row.classList.add('row')
