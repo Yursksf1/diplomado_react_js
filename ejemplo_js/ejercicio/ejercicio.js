@@ -1,5 +1,5 @@
 
-$("#tabla_1").click(function() { tabla(1); } )
+document.getElementById("tabla_1").addEventListener("click", function() { tabla(1); } )
 $("#tabla_2").click(function() { tabla(2); } )
 $("#tabla_3").click(function() { tabla(3); } )
 $("#tabla_4").click(function() { tabla(4); } )

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'game_font';
+    src: url("../fonts/Game.ttf");
+}
+
+@font-face {
+    font-family: 'kid_game';
+    src: url("../fonts/Kid_Games.ttf");
+}
+
+@font-face {
+    font-family: 'blackout';
+    src: url("../fonts/Blackout.otf");
+}
+
+.font_blackout {
+    font-family: "blackout";
+}
+
+.font_game {
+    font-family: 'game_font';
+}
+
+
+.font_kid_game {
+    font-family: 'game_font';
+}
