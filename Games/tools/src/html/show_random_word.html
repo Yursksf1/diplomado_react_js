@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <a class="navbar-brand" href="../../index.html">
+            <h1 class="font_game"> Title Game </h1>
+          </a>
+    </nav>
+
+    <div class="container">
+        <button id="show_palabra" class="btn button"> show </button>
+        <div id="app">
+
+        </div>
+    </div>
+      
+    <script>
+        app = $("#app")
+        app.addClass('font_blackout')
+        app.addClass('palabra_elegida')
+
+
+        function getRandomArbitrary(min, max) {
+            return parseInt(Math.random() * (max - min) + min)
+        }
+
+        $("#show_palabra").click(show_palabra)
+        function show_palabra(){
+            lista_palabras = [
+                "gato",
+                "perro",
+                "raton",
+                "caballo",
+                "unicornio",
+            ]
+            random_number = getRandomArbitrary(0, lista_palabras.length)
+            palabra_elegida = lista_palabras[random_number]
+            console.log(palabra_elegida)
+            alert(palabra_elegida)
+            app = $("#app").text(palabra_elegida)
+        }
+
+    </script>
+</body>
+</html>

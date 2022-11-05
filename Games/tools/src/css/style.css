@@ -25,3 +25,9 @@
 .font_kid_game {
     font-family: 'game_font';
 }
+
+.palabra_elegida {
+    font-size: 100px;
+    text-align: center;
+    
+}
