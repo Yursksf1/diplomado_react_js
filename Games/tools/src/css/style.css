@@ -13,6 +13,15 @@
     src: url("../fonts/Blackout.otf");
 }
 
+@font-face {
+    font-family: 'danila';
+    src: url("../fonts/Danila.ttf");
+}
+
+.font_danila {
+    font-family: "danila";
+}
+
 .font_blackout {
     font-family: "blackout";
 }
