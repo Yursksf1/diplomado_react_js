@@ -31,3 +31,12 @@
     text-align: center;
     
 }
+
+.game_numbers {
+    font-size: 30px;
+    width: 700px;
+}
+
+/* #win {
+    background-color: blue;
+} */

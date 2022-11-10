@@ -25,6 +25,7 @@
     <script>
         app = $("#app")
         app.addClass('font_blackout')
+        app.addClass('game_numbers')
         function getRandomArbitrary(min, max) {
             return parseInt(Math.random() * (max - min) + min)
         }
@@ -40,9 +41,9 @@
                 const element_cell = cell;
                 div_cell = document.createElement("div")
                 div_cell.classList.add('col')
-                div_cell.textContent = "9"
+                div_cell.textContent = "8"
                 if (row == coordenada_row && cell == coordenada_cell) { 
-                    div_cell.textContent = "8" 
+                    div_cell.textContent = "9" 
                     div_cell.setAttribute("id", "win");
                 }
                 div_row.append(div_cell)
@@ -52,7 +53,8 @@
 
         $("#win").click(ganaste)
         function ganaste(){
-            alert('felicidades ganaste')
+            // alert('felicidades ganaste')
+            location.reload()
         }
 
     </script>
