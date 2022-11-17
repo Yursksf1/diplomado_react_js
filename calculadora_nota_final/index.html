@@ -14,27 +14,43 @@
     <div class="container">
         <h3>Calculadora Materia X</h3>
         <p> Esta herramienta te va a ayudar a calcula la definitiva de la materia segun los porcentages asignados y los resultados</p>
-        <center>
-            <h1>Definitiva</h1>
+        
+        <div>
+            <center>
+                <h1>Definitiva</h1>
             </center>
             <div class="grid">
                   <div class="row">
-                    <div class="col col-xs-2">#</div>
-                    <div class="col col-xs-2">Materia</div>
                     <div class="col col-xs-2">Teorico 80%</div>
                     <div class="col col-xs-2">Practico 20%</div>
-                    <div class="col col-xs-2">total</div>
                     <div class="col col-xs-2">Nota Final</div>
                   </div>
                   <div class="row">
-                    <div class="col col-xs-2">1</div>
-                    <div class="col col-xs-2"><input type="text"  placeholder="Nombre_Materia" value="Fisica"></div>
-                    <div class="col col-xs-2"><input type="text" id="n_teorico" placeholder="Valor" value="5"></div>
-                    <div class="col col-xs-2"><input type="text" id="n_practico" placeholder="Valor" value="5"></div>
-                    <div class="col col-xs-2"><button type="button" id="Total_nota" > Calcular</button></div>
+                    <div class="col col-xs-2"><input class="form-control" type="text" id="n_teorico" placeholder="Valor" value="5"></div>
+                    <div class="col col-xs-2"><input class="form-control" type="text" id="n_practico" placeholder="Valor" value="5"></div>
                     <div class="col col-xs-2"> <p class="resultado" id="resultado_final">  </p></div>
                 </div>
             </div>
+        </div>
+
+            <br> <br>   
+        <div>
+            <center>
+                <h1>Nota Final del Parte Practica</h1>
+            </center>
+            <div class="grid">
+                  <div class="row">
+                    <div class="col col-xs-2">Laboratorios 80%</div>
+                    <div class="col col-xs-2">Examen 20%</div>
+                    <div class="col col-xs-2">Nota Final</div>
+                  </div>
+                  <div class="row">
+                    <div class="col col-xs-2"><input class="form-control" type="text" id="n_laboratorio" placeholder="Valor" value="5"></div>
+                    <div class="col col-xs-2"><input class="form-control" type="text" id="n_examen" placeholder="Valor" value="5"></div>
+                    <div class="col col-xs-2"> <p class="resultado" id="resultado_laboratorio">  </p></div>
+                </div>
+            </div>
+        </div>
     </div>
 
 

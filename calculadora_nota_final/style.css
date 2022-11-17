@@ -1,3 +1,8 @@
-.resultado {
-    color: blue;
+
+.good {
+    color: rgb(5, 94, 0);
+}
+
+.bad {
+    color: brown;
 }
