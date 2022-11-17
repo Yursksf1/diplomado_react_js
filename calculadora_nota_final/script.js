@@ -149,3 +149,45 @@ function validarColorNotaInput(element) {
         element.classList.add('is-invalid')
     }
 }
+
+
+document.getElementById("genera_laboratorios").addEventListener("click", generarLaboratorios); 
+
+function generarLaboratorios(){
+    numero_de_laboratorios = parseInt(document.getElementById('numero_de_laboratorios').value);
+    element = document.getElementById('laboratorios_inputs')
+
+    console.log(`voy a generar los ${numero_de_laboratorios} laboratorios`)
+    for (let index = 0; index < numero_de_laboratorios; index++) {
+        contenido = document.createElement('div')
+        contenido.classList.add('border-bottom')
+        contenido.classList.add('col-12')
+        contenido.classList.add('col-lg-3')
+        contenido.classList.add('col-md-4')
+        contenido.classList.add('col-sm-6')
+        contenido.classList.add('mb-2')
+        contenido.classList.add('pb-1')
+
+        row_1 = document.createElement('div')
+        p1 = document.createElement('p')
+        p1.textContent = `Laboratorio ${index}`
+        row_1.appendChild(p1)
+        
+        row_2 = document.createElement('div')
+        label = document.createElement('label')
+        label.textContent = `PreInforme`
+        div = document.createElement('div')
+        input = document.createElement('input')
+        div.appendChild(input)
+
+        row_2.appendChild(label)
+        row_2.appendChild(div)
+
+        contenido.appendChild(row_1)
+        contenido.appendChild(row_2)
+
+        element.appendChild(contenido)
+    }
+
+    
+}
