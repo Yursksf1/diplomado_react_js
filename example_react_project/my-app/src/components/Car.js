@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Model from './Model'
+import Color from './Color'
 
 class Car extends React.Component {
   constructor(props) {
@@ -19,8 +21,15 @@ class Car extends React.Component {
       <div>
         <h1>My {this.state.brand}</h1>
         <p>
-          It is a {this.state.color}
-          {this.state.model}
+          <Color
+            color= {this.state.color}
+          />
+          <Model 
+            model = {this.state.model}
+          />
+          <Model 
+            model = "texto"
+          />
           from {this.state.year}.
         </p>
         <button
