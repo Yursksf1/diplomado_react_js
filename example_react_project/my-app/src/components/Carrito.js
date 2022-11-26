@@ -22,6 +22,7 @@ class Carrito extends React.Component {
         <ul className="list-group">
           <Item item={'manzana'} imagen={manzana} /> 
           <Item item={'pera'} imagen={pera}/> 
+          {/* agregar items: uvas, fresas, piña */}
         </ul>
 
       </div>
