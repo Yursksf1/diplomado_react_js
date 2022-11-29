@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+.navbar{
+  border-radius: 2px 2px 100px 100px;
+  box-shadow: 0 5px 10px #1e20254d,0 -5px 10px #1e20254d!important;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.img-santa{
+  width: 65px;
+  margin-left: 3%;
+  margin-right: 7%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.icon-list{
+  width: 50px !important;
+}
+.bg-green{
+  background-color: #00aa4f !important;
+}
+.shadow1{
+  box-shadow: 7px -6px 1px rgb(255 118 118) !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-color: white !important;
+  background-size: 30px;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  
+}
+.accordion-button::after {
+  background-color: white !important;
+  background-size: 30px !important;
+  border-radius: 50px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
