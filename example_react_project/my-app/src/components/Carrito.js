@@ -4,6 +4,8 @@ import Item from './Item'
 import "./Color.css"
 import manzana from '../images/manzana.jpg'
 import pera from '../images/pera.jpg'
+import Table from 'react-bootstrap/Table';
+
 
 class Carrito extends React.Component {
   constructor(props) {
