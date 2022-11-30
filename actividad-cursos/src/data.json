@@ -36,29 +36,6 @@
             }
         ]
     },
-  
-    {
-        "titulo": "Tecnica Vocal",
-        "imagen": "img_tecnica_vocal.jpg",
-        "videos": [
-            {
-                "titulo": "Técnica Vocal - Ejercicios para Afinar la Voz - Mejora Tu Voz",
-                "video": "https://www.youtube.com/watch?v=G2vDNamPNoc",
-                "descripcion": "Descubre cómo cantar mejor controlando la afinación de la voz. Afinar la voz significa cantar en el tono adecuado. A veces tenemos dificultad porque no nos damos cuenta de nuestros errores. Estos ejercicios te ayudarán a controlar tu afinación de manera sencilla y progresiva.."
-            },
-            {
-                "titulo": "Clases de canto 1 | Como cantar Bien ",
-                "video": "https://www.youtube.com/watch?v=UVUwP8AqD1",
-                "descripcion": "una clase de canto corta con el propósito de trabajar"
-            },
-            {
-                "titulo": "Como cantar Raspado",
-                "video": "https://www.youtube.com/watch?v=0DM9yUq4Pjk",
-                "descripcion": "Como Raspar la voz al cantar | Rasgado Clases de Canto Gutural"
-            }
-        ]
-    },
-  
     {
         "titulo": "Tocar Guitarra",
         "imagen": "aprende_guitarra.jpg",
