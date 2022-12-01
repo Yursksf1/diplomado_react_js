@@ -25,16 +25,15 @@ export default class Home extends PureComponent {
     return (
         <div>
             <div>Academia XYZ cursos</div>
-            {curso ? <Course key={curso.titulo} curso={curso}/>:
-                data.map(curso => {
+            {data.map(curso => {
                   return <p
                   onClick={() => this.changeCurso(curso)}
                   > {curso.titulo} 
-                  </p>
-              })
-                // data.map(curso => {
-                //     return <Course key={curso.titulo} curso={curso}/>
-                // })
+                  </p>})
+            }
+            
+            {
+              curso ? <Course key={curso.titulo} curso={curso}/> : null                 
             }
          
         </div>
