@@ -7,6 +7,11 @@ export default function Course(props) {
     <div>
         <h1> {curso.titulo}</h1>
         <img src={curso.imagen} ></img>
+        {
+                curso.videos.map(video => {
+                    return <p> {video.titulo}</p>
+                })
+            }
     </div>
   )
 }
