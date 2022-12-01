@@ -1,5 +1,13 @@
-.contenido_color {
+.contenido_color_blue {
     color: blue;
+
+}
+.contenido_color_yellow {
+    color: yellow;
+
+}
+.contenido_color_black {
+    color: black;
 
 }
 
